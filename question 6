@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scn = new Scanner(System.in);
+        int v1 = scn.nextInt();
+        int v2 = scn.nextInt();
+        int v3 = scn.nextInt();
+        if (v1%4!=0){
+            System.out.println(false);
+        }if (v2%4!=0){
+            System.out.println(false);
+        }if (v3%4!=0){
+            System.out.println(false);
+        }else {
+            System.out.println(true);
+        }
+
+
+
+    }
+}
